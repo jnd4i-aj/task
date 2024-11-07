@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot name="my_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <xacro:include filename="colors_materials.xacro"/>
+    <xacro:include filename="my_robot_physics.xacro"/>
+    <xacro:include filename="gazebo_data.xacro"/>
+    <xacro:include filename="my_robot_structure.xacro"/>
+</robot>
